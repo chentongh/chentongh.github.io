@@ -8,16 +8,25 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Home"
-    url: /
+  # The site is intentionally a single-page portfolio. These links return to
+  # the homepage and jump to the matching section, even from an archived page.
+  - title: "About Me"
+    url: /#about
 
   - title: "Research"
-    url: /research/
+    url: /#research
 
-  # Publications and Talks remain available as pages, but are intentionally
-  # hidden from the primary navigation until there is current content to show.
-  # - title: "Publications"
-  #   url: /publications/
+  - title: "News"
+    url: /#news
+
+  - title: "Publications"
+    url: /#publications
+
+  - title: "Education"
+    url: /#education
+
+  - title: "Awards"
+    url: /#awards
 
   # - title: "Talks"
   #   url: /talks/
@@ -32,7 +41,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: /files/CV.pdf
   #   url: ../_pages/CV.pdf/
     
   # - title: "CV"
