@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Chentong Huang "
+title                    : "Chentong Huang"
 title_separator          : "-"
 name                     : &name "Chentong Huang"
-description              : &description " "   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ph.D. student in Electrical and Computer Engineering at the University of Rochester, working on optimization and machine learning."
 url: "https://chentongh.github.io"
 baseurl: ""
 repository: "chentongh/chentongh.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Chentong Huang"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student Researcher"
-  location         : "Rochester, NY, 14627, USA"
-  employer         : "University of Rochester"
+  bio              : "Ph.D. Student · University of Rochester"
+  location         :
+  employer         :
   uri              : # URL
   email            : "chuang80@ur.rochester.edu" 
 
@@ -47,7 +47,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : # 
+  github           : "chentongh"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -140,13 +140,15 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_description           : *description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : *name
+  links:
+    - "https://github.com/chentongh"
+    - "https://orcid.org/0009-0007-8567-8185"
 
 
 # Analytics

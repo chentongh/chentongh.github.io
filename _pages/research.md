@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research Project"
+title: "Research"
 permalink: /research/
 author_profile: true
 ---
@@ -15,4 +15,3 @@ author_profile: true
 1. Unlike previous works that only use GT images as training labels, we introduce an HFFA module implemented with MI maximization to constrain the high-frequency
 consistency between PAN images and GT images, since the former are commonly used as the HR guidance to spatially super-resolve the LRMS.
 2. Considering the inaccurate high-frequency details of LRMS images, we devise an HFDC module through contrastive learning constraints, aiming to calibrate the high-frequency information of MS modality under PAN guidance refined by the HFFA module.
-

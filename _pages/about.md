@@ -1,25 +1,34 @@
 ---
 permalink: /
-title: "Homepage"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Biography <img src="../images/Biography.png" height="20px">
-------
-I am a PhD student researcher of [Department of Electrical and Computer Engineering](https://www.hajim.rochester.edu/ece/) at the [University of Rochester](https://www.rochester.edu/). My advisor is [Prof. Chen](https://www.hajim.rochester.edu/ece/people/faculty/chen_lisha/index.html). Previously, I received my bachelor degree from the [School of Information Science and Engineering](https://radio.seu.edu.cn/) of [Southeast University](https://www.seu.edu.cn/) in 2025.
+<div class="home-intro">
+  <p>I am a Ph.D. student in Electrical and Computer Engineering at the <a href="https://www.rochester.edu/">University of Rochester</a>, advised by <a href="https://www.hajim.rochester.edu/ece/people/faculty/chen_lisha/index.html">Prof. Lisha Chen</a>. I received my B.E. from <a href="https://www.seu.edu.cn/english/">Southeast University</a> in 2025. My research focuses on optimization, multi-objective learning, and machine learning.</p>
+</div>
 
-My research area is machine learning and deep learning theory. My research interests include
+<section class="home-section" aria-labelledby="research-interests-heading">
+  <h2 id="research-interests-heading">Research Interests</h2>
+  <ul class="interest-list">
+    <li>Optimization</li>
+    <li>Multi-objective Learning</li>
+    <li>Machine Learning</li>
+  </ul>
+</section>
 
-- Optimization theory of Large Language Models
-- Deep learning methods in Computer Vision
-
-Contact: chuang80@ur.rochester.edu, chentongh2004@gmail.com
-
-News <img src="../images/News.png" height="20px">
-------
-2025.08: ⭐I enrolled at the University of Rochester and joined Prof. Chen's research group.
-
-2025.06: ⭐I have graduated from Southeast University and obtained a bachelor's degree.
+<section class="home-section" aria-labelledby="recent-updates-heading">
+  <h2 id="recent-updates-heading">Recent Updates</h2>
+  <ul class="updates-list">
+    <li>
+      <time datetime="2025-08">2025.08</time>
+      <span>Started my Ph.D. at the University of Rochester and joined Prof. Lisha Chen's research group.</span>
+    </li>
+    <li>
+      <time datetime="2025-06">2025.06</time>
+      <span>Graduated from Southeast University with a B.E.</span>
+    </li>
+  </ul>
+</section>

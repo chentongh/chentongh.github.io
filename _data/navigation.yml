@@ -8,17 +8,19 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  # - title: "Homepage"
-  #   url: /homepage/
-  
+  - title: "Home"
+    url: /
+
   - title: "Research"
     url: /research/
 
-  - title: "Publications"
-    url: /publications/
+  # Publications and Talks remain available as pages, but are intentionally
+  # hidden from the primary navigation until there is current content to show.
+  # - title: "Publications"
+  #   url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  # - title: "Talks"
+  #   url: /talks/
 
   # - title: "Teaching"
   #   url: /teaching/    
