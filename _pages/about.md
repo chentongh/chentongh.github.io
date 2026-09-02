@@ -17,10 +17,11 @@ redirect_from:
       <p class="profile-kicker">Ph.D. Student in Electrical and Computer Engineering</p>
       <h1 id="profile-name">Chentong Huang</h1>
       <p class="profile-affiliation"><a href="https://www.rochester.edu/">University of Rochester</a></p>
-      <p class="profile-advisor">Advised by <a href="https://www.hajim.rochester.edu/ece/people/faculty/chen_lisha/index.html">Prof. Lisha Chen</a></p>
+      <p class="profile-advisor">Advised by <a href="https://lisha-chen.github.io/www/index.html">Prof. Lisha Chen</a></p>
 
       <ul class="profile-links" aria-label="Contact and academic profiles">
         <li><a href="mailto:chuang80@ur.rochester.edu">Email</a></li>
+        <li><a href="https://scholar.google.com/citations?user=4-KV8lwAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></li>
         <li><a href="https://github.com/chentongh">GitHub</a></li>
         <li><a href="https://orcid.org/0009-0007-8567-8185">ORCID</a></li>
         <li><a href="{{ '/files/CV.pdf' | relative_url }}">CV</a></li>
@@ -31,7 +32,7 @@ redirect_from:
   <section id="about" class="one-page-section" aria-labelledby="about-heading">
     <h2 id="about-heading">About Me</h2>
     <div class="section-body about-copy">
-      <p>I am a Ph.D. student in Electrical and Computer Engineering at the University of Rochester, advised by Prof. Lisha Chen. I received my B.E. in Information Engineering from Southeast University in 2025. My research interests include optimization, multi-objective learning, and machine learning.</p>
+      <p>I am a Ph.D. student in Electrical and Computer Engineering at the University of Rochester, advised by <a href="https://lisha-chen.github.io/www/index.html">Prof. Lisha Chen</a>. I received my B.E. in Information Engineering from Southeast University in 2025. My research interests include optimization, multi-objective learning, and machine learning.</p>
     </div>
   </section>
 
@@ -52,16 +53,16 @@ redirect_from:
     <div class="section-body">
       <ul class="updates-list">
         <li>
+          <time datetime="2026-07">2026.07</time>
+          <span>Our work on regularity-aware stochastic MGDA was released on arXiv.</span>
+        </li>
+        <li>
           <time datetime="2025-08">2025.08</time>
           <span>Started my Ph.D. at the University of Rochester and joined Prof. Lisha Chen's research group.</span>
         </li>
         <li>
           <time datetime="2025-06">2025.06</time>
           <span>Graduated from Southeast University with a B.E. in Information Engineering.</span>
-        </li>
-        <li>
-          <time datetime="2025-02">2025.02</time>
-          <span>Our work on cooperative optimization for multispectral image fusion was published in IEEE TGRS.</span>
         </li>
       </ul>
     </div>
@@ -72,28 +73,22 @@ redirect_from:
     <div class="section-body">
       <ol class="publication-list">
         <li>
-          <p class="publication-title">A General Cooperative Optimization Driven High-Frequency Enhancement Framework for Multispectral Image Fusion</p>
-          <p class="publication-authors"><strong>Chentong Huang</strong>, Junming Hou, Chenxu Wu, Xiaofeng Cong, Man Zhou, Junling Li, and Danfeng Hong</p>
-          <p class="publication-venue"><em>IEEE Transactions on Geoscience and Remote Sensing</em>, 63:1–14, 2025.</p>
-          <p class="publication-links"><a href="https://ieeexplore.ieee.org/document/10897307/">Paper</a><a href="https://github.com/Vcocoi/CONet">Code</a></p>
+          <p class="publication-title">Regularity-Aware Stochastic MGDA with Adaptive Conflict-Avoidant Update Direction Control</p>
+          <p class="publication-authors"><strong>Chentong Huang</strong> and Lisha Chen</p>
+          <p class="publication-venue"><em>arXiv preprint arXiv:2607.15412</em>, Jul. 2026.</p>
+          <p class="publication-links"><a href="https://arxiv.org/abs/2607.15412">Paper</a></p>
         </li>
         <li>
           <p class="publication-title">Bidomain Uncertainty Gated Recursive Network for Pan-sharpening</p>
           <p class="publication-authors">Junming Hou, Xinyang Liu, Chenxu Wu, Xiaofeng Cong, <strong>Chentong Huang</strong>, Liang-Jian Deng, and Jian Wei You</p>
-          <p class="publication-venue"><em>Information Fusion</em>, 118:102938, 2025.</p>
+          <p class="publication-venue"><em>Information Fusion</em>, 118:102938, Jun. 2025.</p>
           <p class="publication-links"><a href="https://www.sciencedirect.com/science/article/pii/S1566253525000119">Paper</a><a href="https://github.com/coder-JMHou/BUGPan">Code</a></p>
         </li>
-      </ol>
-
-      <h3>Patent Applications</h3>
-      <ol class="patent-list">
         <li>
-          <p>A pan-sharpening method and system for remote sensing images based on cooperative optimization driven high-frequency enhancement.</p>
-          <p>Chinese Patent Application No. CN202411655375.1, filed in 2024.</p>
-        </li>
-        <li>
-          <p>A pan-sharpening method and system for remote sensing images based on bilateral adaptive evolutionary transformer.</p>
-          <p>Chinese Patent Application No. CN202411507794.0, filed in 2024.</p>
+          <p class="publication-title">A General Cooperative Optimization Driven High-Frequency Enhancement Framework for Multispectral Image Fusion</p>
+          <p class="publication-authors"><strong>Chentong Huang</strong>, Junming Hou, Chenxu Wu, Xiaofeng Cong, Man Zhou, Junling Li, and Danfeng Hong</p>
+          <p class="publication-venue"><em>IEEE Transactions on Geoscience and Remote Sensing</em>, 63:1–14, Feb. 2025.</p>
+          <p class="publication-links"><a href="https://ieeexplore.ieee.org/document/10897307/">Paper</a><a href="https://github.com/Vcocoi/CONet">Code</a></p>
         </li>
       </ol>
     </div>
