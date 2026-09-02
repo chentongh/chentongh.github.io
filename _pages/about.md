@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div id="top" class="one-page-home">
-  <header class="profile-hero" aria-labelledby="profile-name">
+  <header id="about" class="profile-hero" aria-labelledby="profile-name">
     <div class="profile-portrait-wrap">
       <img class="profile-portrait" src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Chentong Huang">
     </div>
@@ -25,15 +25,13 @@ redirect_from:
         <li><a href="https://github.com/chentongh">GitHub</a></li>
         <li><a href="https://orcid.org/0009-0007-8567-8185">ORCID</a></li>
       </ul>
+
+      <div class="profile-about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About Me</h2>
+        <p>I am a Ph.D. student in Electrical and Computer Engineering at the University of Rochester, advised by <a href="https://lisha-chen.github.io/www/index.html">Prof. Lisha Chen</a>. I received my B.E. in Information Engineering from Southeast University in 2025. My research interests include optimization, multi-objective learning, and machine learning.</p>
+      </div>
     </div>
   </header>
-
-  <section id="about" class="one-page-section" aria-labelledby="about-heading">
-    <h2 id="about-heading">About Me</h2>
-    <div class="section-body about-copy">
-      <p>I am a Ph.D. student in Electrical and Computer Engineering at the University of Rochester, advised by <a href="https://lisha-chen.github.io/www/index.html">Prof. Lisha Chen</a>. I received my B.E. in Information Engineering from Southeast University in 2025. My research interests include optimization, multi-objective learning, and machine learning.</p>
-    </div>
-  </section>
 
   <section id="news" class="one-page-section" aria-labelledby="news-heading">
     <h2 id="news-heading">News</h2>
