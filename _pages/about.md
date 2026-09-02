@@ -24,7 +24,6 @@ redirect_from:
         <li><a href="https://scholar.google.com/citations?user=4-KV8lwAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></li>
         <li><a href="https://github.com/chentongh">GitHub</a></li>
         <li><a href="https://orcid.org/0009-0007-8567-8185">ORCID</a></li>
-        <li><a href="{{ '/files/CV.pdf' | relative_url }}">CV</a></li>
       </ul>
     </div>
   </header>
@@ -36,25 +35,13 @@ redirect_from:
     </div>
   </section>
 
-  <section id="research" class="one-page-section" aria-labelledby="research-heading">
-    <h2 id="research-heading">Research</h2>
-    <div class="section-body research-layout">
-      <p>I am interested in developing optimization methods for modern machine learning, with a particular focus on multi-objective learning.</p>
-      <ul class="interest-list" aria-label="Research interests">
-        <li>Optimization</li>
-        <li>Multi-objective Learning</li>
-        <li>Machine Learning</li>
-      </ul>
-    </div>
-  </section>
-
   <section id="news" class="one-page-section" aria-labelledby="news-heading">
     <h2 id="news-heading">News</h2>
     <div class="section-body">
       <ul class="updates-list">
         <li>
           <time datetime="2026-07">2026.07</time>
-          <span>Our work on regularity-aware stochastic MGDA was released on arXiv.</span>
+          <span>Our paper on regularity-aware stochastic MGDA was accepted by the <a href="https://www.asilomarsscconf.org/">2026 Asilomar Conference on Signals, Systems, and Computers</a>.</span>
         </li>
         <li>
           <time datetime="2025-08">2025.08</time>
@@ -119,11 +106,12 @@ redirect_from:
     <h2 id="awards-heading">Awards</h2>
     <div class="section-body">
       <ul class="award-list">
+        <li><span>Outstanding Graduate, Southeast University</span><time datetime="2025">2025</time></li>
         <li><span>Southeast University Exemplary Individual of Sports Excellence</span><time datetime="2023-12">Dec. 2023</time></li>
         <li><span>Southeast University Merit Student</span><time datetime="2023-10">Oct. 2023</time></li>
+        <li><span>National Scholarship</span><time datetime="2022">2022</time></li>
         <li><span>China Undergraduate Mathematics Competition, First Prize</span><time datetime="2022-12">Dec. 2022</time></li>
         <li><span>Jiangsu Province Undergraduate Mathematics Competition, First Prize</span><time datetime="2022-11">Nov. 2022</time></li>
-        <li><span>Women's 400m Race at Southeast University Sports Meet, First Place</span><time datetime="2022-11">Nov. 2022</time></li>
       </ul>
     </div>
   </section>

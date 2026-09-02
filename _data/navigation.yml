@@ -13,9 +13,6 @@ main:
   - title: "About Me"
     url: /#about
 
-  - title: "Research"
-    url: /#research
-
   - title: "News"
     url: /#news
 
@@ -39,13 +36,6 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
-  - title: "CV"
-    url: /files/CV.pdf
-  #   url: ../_pages/CV.pdf/
-    
-  # - title: "CV"
-  #   url: /cv-json/
     
   # - title: "Guide"
   #   url: /markdown/

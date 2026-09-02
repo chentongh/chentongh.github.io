@@ -332,7 +332,7 @@ html[data-theme="dark"] .profile-portrait {
 
 .profile-intro h1 {
   margin: 0;
-  font-size: clamp(2rem, 3.5vw, 2.35rem);
+  font-size: clamp(1.9rem, 3vw, 1.95rem);
   font-weight: 620;
   letter-spacing: -0.055em;
   line-height: 1.02;
@@ -418,31 +418,11 @@ html[data-theme="dark"] .profile-portrait {
   margin-bottom: 0;
 }
 
-.about-copy p,
-.research-layout > p {
+.about-copy p {
   max-width: 720px;
   margin: 0;
   font-size: 1.02rem !important;
   line-height: 1.68;
-}
-
-.interest-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  margin: 1rem 0 0 !important;
-  padding: 0;
-  list-style: none;
-}
-
-.interest-list li {
-  margin: 0;
-  padding: 0.38rem 0.72rem;
-  border: 1px solid var(--global-border-color);
-  border-radius: 999px;
-  color: var(--global-text-color-light);
-  font-size: 0.84rem !important;
-  line-height: 1.25;
 }
 
 .updates-list {
@@ -815,19 +795,9 @@ html[data-theme="dark"] .profile-portrait {
     margin-bottom: 0.85rem;
   }
 
-  .about-copy p,
-  .research-layout > p {
+  .about-copy p {
     font-size: 0.96rem !important;
     line-height: 1.62;
-  }
-
-  .interest-list {
-    margin-top: 0.8rem !important;
-  }
-
-  .interest-list li {
-    padding: 0.34rem 0.62rem;
-    font-size: 0.78rem !important;
   }
 
   .updates-list li {
