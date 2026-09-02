@@ -10,9 +10,6 @@
 main:
   # The site is intentionally a single-page portfolio. These links return to
   # the homepage and jump to the matching section, even from an archived page.
-  - title: "About Me"
-    url: /#about
-
   - title: "News"
     url: /#news
 

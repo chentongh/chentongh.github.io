@@ -26,8 +26,7 @@ redirect_from:
         <li><a href="https://orcid.org/0009-0007-8567-8185">ORCID</a></li>
       </ul>
 
-      <div class="profile-about" aria-labelledby="about-heading">
-        <h2 id="about-heading">About Me</h2>
+      <div class="profile-about">
         <p>I am a Ph.D. student in Electrical and Computer Engineering at the University of Rochester, advised by <a href="https://lisha-chen.github.io/www/index.html">Prof. Lisha Chen</a>. I received my B.E. in Information Engineering from Southeast University in 2025. My research interests include optimization, multi-objective learning, and machine learning.</p>
       </div>
     </div>
