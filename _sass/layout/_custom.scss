@@ -330,14 +330,14 @@ html[data-theme="dark"] .profile-portrait {
 }
 
 .profile-role {
-  margin: 0;
+  margin: 0 !important;
   font-size: 0.92rem !important;
   line-height: 1.35;
 }
 
 .profile-department,
 .profile-affiliation {
-  margin: 0.04rem 0 0;
+  margin: 0.04rem 0 0 !important;
   font-size: 0.92rem !important;
   line-height: 1.35;
 }
@@ -354,9 +354,10 @@ html[data-theme="dark"] .profile-portrait {
 }
 
 .profile-email {
-  margin: 0.52rem 0 0;
+  margin: 0.52rem 0 0 !important;
   color: var(--global-text-color-light);
   font-size: 0.86rem !important;
+  line-height: 1.35;
 }
 
 .profile-email a {
