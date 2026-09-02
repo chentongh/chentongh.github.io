@@ -314,7 +314,7 @@ a {
 .profile-portrait {
   display: block;
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 3 / 4;
   border: 1px solid var(--global-border-color);
   border-radius: 14px;
   object-fit: cover;
