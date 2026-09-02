@@ -56,7 +56,7 @@ redirect_from:
   </section>
 
   <section id="publications" class="one-page-section" aria-labelledby="publications-heading">
-    <h2 id="publications-heading">Publications</h2>
+    <h2 id="publications-heading">Publications &amp; Preprints</h2>
     <div class="section-body">
       <ul class="publication-list">
         <li>

@@ -286,6 +286,7 @@ a {
 
 .one-page-home {
   width: 100%;
+  line-height: 1.52;
 }
 
 .profile-hero {
@@ -434,7 +435,7 @@ html[data-theme="dark"] .profile-portrait {
   margin: 0;
   font-size: 1.02rem !important;
   hyphens: auto;
-  line-height: 1.68;
+  line-height: 1.58;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -464,6 +465,7 @@ html[data-theme="dark"] .profile-portrait {
 .updates-list span {
   font-size: 0.96rem !important;
   hyphens: auto;
+  line-height: 1.5;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -476,7 +478,7 @@ html[data-theme="dark"] .profile-portrait {
 
 .publication-list > li {
   margin: 0;
-  padding: 0 0 1.4rem;
+  padding: 0 0 1.05rem;
 }
 
 .publication-list > li:last-child {
@@ -492,18 +494,18 @@ html[data-theme="dark"] .profile-portrait {
   font-size: 1rem !important;
   font-weight: 680;
   hyphens: auto;
-  line-height: 1.42;
+  line-height: 1.36;
   text-align: justify;
   text-justify: inter-word;
 }
 
 .publication-authors,
 .publication-venue {
-  margin-top: 0.18rem !important;
+  margin-top: 0.1rem !important;
   color: var(--global-text-color-light);
   font-size: 0.89rem !important;
   hyphens: auto;
-  line-height: 1.45;
+  line-height: 1.38;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -515,7 +517,7 @@ html[data-theme="dark"] .profile-portrait {
 .publication-links {
   display: flex;
   gap: 0.95rem;
-  margin-top: 0.4rem !important;
+  margin-top: 0.28rem !important;
 }
 
 .publication-links a {
@@ -528,7 +530,7 @@ html[data-theme="dark"] .profile-portrait {
 
 .education-list {
   display: grid;
-  gap: 1.25rem;
+  gap: 1.05rem;
 }
 
 .education-item {
@@ -545,10 +547,10 @@ html[data-theme="dark"] .profile-portrait {
 }
 
 .education-item p {
-  margin: 0.1rem 0 0;
+  margin: 0.06rem 0 0;
   color: var(--global-text-color-light);
   font-size: 0.9rem !important;
-  line-height: 1.5;
+  line-height: 1.42;
 }
 
 .education-date,
@@ -570,9 +572,9 @@ html[data-theme="dark"] .profile-portrait {
   grid-template-columns: minmax(0, 1fr) max-content;
   gap: 1.25rem;
   margin: 0;
-  padding: 0.3rem 0;
+  padding: 0.24rem 0;
   font-size: 0.94rem !important;
-  line-height: 1.5;
+  line-height: 1.42;
 }
 
 /* Desktop: a stable, airy two-column grid. */
@@ -795,7 +797,7 @@ html[data-theme="dark"] .profile-portrait {
 
   .about-copy p {
     font-size: 0.96rem !important;
-    line-height: 1.62;
+    line-height: 1.56;
   }
 
   .updates-list li {
