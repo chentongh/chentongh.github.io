@@ -10,7 +10,7 @@ redirect_from:
 <div id="top" class="one-page-home">
   <header id="about" class="profile-hero" aria-labelledby="profile-name">
     <div class="profile-portrait-wrap">
-      <img class="profile-portrait" src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Chentong Huang">
+      <img class="profile-portrait" src="{{ '/images/profile.png?v=20260901' | relative_url }}" alt="Portrait of Chentong Huang">
     </div>
 
     <div class="profile-intro">
