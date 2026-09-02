@@ -291,10 +291,20 @@ a {
 .profile-hero {
   display: grid;
   grid-template-columns: 180px minmax(0, 1fr);
-  gap: clamp(2rem, 4vw, 3rem);
-  align-items: center;
+  column-gap: clamp(1.5rem, 3vw, 2rem);
+  row-gap: 1.05rem;
+  align-items: start;
   min-height: 0;
   padding-bottom: 2.25rem;
+}
+
+.profile-name {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-size: clamp(1.65rem, 2.5vw, 1.7rem);
+  font-weight: 620;
+  letter-spacing: -0.045em;
+  line-height: 1.08;
 }
 
 .profile-portrait-wrap {
@@ -318,45 +328,47 @@ html[data-theme="dark"] .profile-portrait {
 
 .profile-intro {
   min-width: 0;
+  padding-top: 0.15rem;
 }
 
-.profile-kicker {
-  margin: 0 0 0.4rem;
-  color: var(--site-accent);
-  font-size: 0.74rem !important;
-  font-weight: 700;
-  letter-spacing: 0.075em;
-  line-height: 1.45;
-  text-transform: uppercase;
-}
-
-.profile-intro h1 {
+.profile-role {
   margin: 0;
-  font-size: clamp(1.65rem, 2.5vw, 1.7rem);
-  font-weight: 620;
-  letter-spacing: -0.055em;
-  line-height: 1.02;
+  font-size: 0.98rem !important;
+  line-height: 1.45;
 }
 
+.profile-department,
 .profile-affiliation {
-  margin: 0.65rem 0 0;
-  font-size: 1.02rem !important;
-  font-weight: 600;
+  margin: 0.12rem 0 0;
+  font-size: 0.98rem !important;
+  line-height: 1.45;
 }
 
+.profile-department a,
 .profile-affiliation a {
+  color: var(--global-link-color);
+  text-decoration: none;
+}
+
+.profile-department a:hover,
+.profile-affiliation a:hover {
+  text-decoration: underline;
+}
+
+.profile-email {
+  margin: 0.8rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem !important;
+}
+
+.profile-email a {
   color: var(--global-text-color);
   text-decoration: none;
 }
 
-.profile-affiliation a:hover {
+.profile-email a:hover {
   color: var(--global-link-color);
-}
-
-.profile-advisor {
-  margin: 0.12rem 0 0;
-  color: var(--global-text-color-light);
-  font-size: 0.9rem !important;
+  text-decoration: underline;
 }
 
 .profile-links {
@@ -655,25 +667,23 @@ html[data-theme="dark"] .profile-portrait {
 
   .profile-hero {
     grid-template-columns: 125px minmax(0, 1fr);
-    gap: 1.25rem;
+    column-gap: 1.25rem;
+    row-gap: 0.85rem;
     min-height: 0;
     padding-bottom: 1.9rem;
   }
 
-  .profile-intro h1 {
+  .profile-name {
     font-size: clamp(1.55rem, 5.5vw, 1.7rem);
   }
 
-  .profile-kicker {
-    font-size: 0.72rem !important;
-  }
-
+  .profile-department,
   .profile-affiliation {
-    margin-top: 0.55rem;
-    font-size: 0.96rem !important;
+    font-size: 0.91rem !important;
   }
 
-  .profile-advisor {
+  .profile-role,
+  .profile-email {
     font-size: 0.87rem !important;
   }
 
@@ -746,7 +756,8 @@ html[data-theme="dark"] .profile-portrait {
 
   .profile-hero {
     grid-template-columns: 82px minmax(0, 1fr);
-    gap: 0.85rem;
+    column-gap: 0.85rem;
+    row-gap: 0.7rem;
     align-items: start;
     padding-bottom: 1.6rem;
   }
@@ -755,23 +766,17 @@ html[data-theme="dark"] .profile-portrait {
     border-radius: 12px;
   }
 
-  .profile-kicker {
-    margin-bottom: 0.28rem;
-    font-size: 0.6rem !important;
-    letter-spacing: 0.055em;
+  .profile-name {
+    font-size: 1.55rem;
   }
 
-  .profile-intro h1 {
-    font-size: 1.78rem;
-  }
-
+  .profile-department,
   .profile-affiliation {
-    margin-top: 0.42rem;
-    font-size: 0.91rem !important;
+    font-size: 0.8rem !important;
   }
 
-  .profile-advisor {
-    margin-top: 0.08rem;
+  .profile-role,
+  .profile-email {
     font-size: 0.78rem !important;
     line-height: 1.4;
   }

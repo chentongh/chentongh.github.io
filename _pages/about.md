@@ -9,18 +9,19 @@ redirect_from:
 
 <div id="top" class="one-page-home">
   <header class="profile-hero" aria-labelledby="profile-name">
+    <h1 id="profile-name" class="profile-name">Chentong Huang</h1>
+
     <div class="profile-portrait-wrap">
       <img class="profile-portrait" src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Chentong Huang">
     </div>
 
     <div class="profile-intro">
-      <p class="profile-kicker">Ph.D. Student in Electrical and Computer Engineering</p>
-      <h1 id="profile-name">Chentong Huang</h1>
+      <p class="profile-role">Ph.D. Student</p>
+      <p class="profile-department"><a href="https://www.hajim.rochester.edu/ece/">Department of Electrical and Computer Engineering</a></p>
       <p class="profile-affiliation"><a href="https://www.rochester.edu/">University of Rochester</a></p>
-      <p class="profile-advisor">Advised by <a href="https://lisha-chen.github.io/www/index.html">Prof. Lisha Chen</a></p>
+      <p class="profile-email">Email: <a href="mailto:chuang80@ur.rochester.edu">chuang80@ur.rochester.edu</a></p>
 
-      <ul class="profile-links" aria-label="Contact and academic profiles">
-        <li><a href="mailto:chuang80@ur.rochester.edu">Email</a></li>
+      <ul class="profile-links" aria-label="Academic profiles">
         <li><a href="https://scholar.google.com/citations?user=4-KV8lwAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></li>
         <li><a href="https://github.com/chentongh">GitHub</a></li>
         <li><a href="https://orcid.org/0009-0007-8567-8185">ORCID</a></li>
@@ -41,7 +42,7 @@ redirect_from:
       <ul class="updates-list">
         <li>
           <time datetime="2026-07">2026.07</time>
-          <span>Our paper on regularity-aware stochastic MGDA was accepted by the <a href="https://www.asilomarsscconf.org/">2026 Asilomar Conference on Signals, Systems, and Computers</a>.</span>
+          <span>Our paper on regularity-aware stochastic MGDA was accepted by Asilomar 2026.</span>
         </li>
         <li>
           <time datetime="2025-08">2025.08</time>
@@ -106,10 +107,10 @@ redirect_from:
     <h2 id="awards-heading">Awards</h2>
     <div class="section-body">
       <ul class="award-list">
-        <li><span>Outstanding Graduate, Southeast University</span><time datetime="2025">2025</time></li>
+        <li><span>Outstanding Graduate, Southeast University</span><time datetime="2025-06">Jun. 2025</time></li>
         <li><span>Southeast University Exemplary Individual of Sports Excellence</span><time datetime="2023-12">Dec. 2023</time></li>
         <li><span>Southeast University Merit Student</span><time datetime="2023-10">Oct. 2023</time></li>
-        <li><span>National Scholarship</span><time datetime="2022">2022</time></li>
+        <li><span>National Scholarship</span><time datetime="2022-12">Dec. 2022</time></li>
         <li><span>China Undergraduate Mathematics Competition, First Prize</span><time datetime="2022-12">Dec. 2022</time></li>
         <li><span>Jiangsu Province Undergraduate Mathematics Competition, First Prize</span><time datetime="2022-11">Nov. 2022</time></li>
       </ul>
