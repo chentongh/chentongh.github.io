@@ -9,13 +9,12 @@ redirect_from:
 
 <div id="top" class="one-page-home">
   <header class="profile-hero" aria-labelledby="profile-name">
-    <h1 id="profile-name" class="profile-name">Chentong Huang</h1>
-
     <div class="profile-portrait-wrap">
       <img class="profile-portrait" src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Chentong Huang">
     </div>
 
     <div class="profile-intro">
+      <h1 id="profile-name" class="profile-name">Chentong Huang</h1>
       <p class="profile-role">Ph.D. Student</p>
       <p class="profile-department"><a href="https://www.hajim.rochester.edu/ece/">Department of Electrical and Computer Engineering</a></p>
       <p class="profile-affiliation"><a href="https://www.rochester.edu/">University of Rochester</a></p>
@@ -42,7 +41,7 @@ redirect_from:
       <ul class="updates-list">
         <li>
           <time datetime="2026-07">2026.07</time>
-          <span>Our paper on regularity-aware stochastic MGDA was accepted by Asilomar 2026.</span>
+          <span>Our paper was accepted by Asilomar 2026.</span>
         </li>
         <li>
           <time datetime="2025-08">2025.08</time>
@@ -59,12 +58,18 @@ redirect_from:
   <section id="publications" class="one-page-section" aria-labelledby="publications-heading">
     <h2 id="publications-heading">Publications</h2>
     <div class="section-body">
-      <ol class="publication-list">
+      <ul class="publication-list">
         <li>
           <p class="publication-title">Regularity-Aware Stochastic MGDA with Adaptive Conflict-Avoidant Update Direction Control</p>
           <p class="publication-authors"><strong>Chentong Huang</strong> and Lisha Chen</p>
           <p class="publication-venue"><em>arXiv preprint arXiv:2607.15412</em>, Jul. 2026.</p>
           <p class="publication-links"><a href="https://arxiv.org/abs/2607.15412">Paper</a></p>
+        </li>
+        <li>
+          <p class="publication-title">SURF: Steering the Scalarization Weight to Uniformly Traverse the Pareto Front</p>
+          <p class="publication-authors">Liuyuan Jiang, <strong>Chentong Huang</strong>, and Lisha Chen</p>
+          <p class="publication-venue"><em>arXiv preprint arXiv:2605.20619</em>, May 2026.</p>
+          <p class="publication-links"><a href="https://arxiv.org/pdf/2605.20619">Paper</a></p>
         </li>
         <li>
           <p class="publication-title">Bidomain Uncertainty Gated Recursive Network for Pan-sharpening</p>
@@ -78,7 +83,7 @@ redirect_from:
           <p class="publication-venue"><em>IEEE Transactions on Geoscience and Remote Sensing</em>, 63:1–14, Feb. 2025.</p>
           <p class="publication-links"><a href="https://ieeexplore.ieee.org/document/10897307/">Paper</a><a href="https://github.com/Vcocoi/CONet">Code</a></p>
         </li>
-      </ol>
+      </ul>
     </div>
   </section>
 
