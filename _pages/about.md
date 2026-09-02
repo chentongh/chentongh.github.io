@@ -62,26 +62,22 @@ redirect_from:
         <li>
           <p class="publication-title">Regularity-Aware Stochastic MGDA with Adaptive Conflict-Avoidant Update Direction Control</p>
           <p class="publication-authors"><strong>Chentong Huang</strong> and Lisha Chen</p>
-          <p class="publication-venue"><em>arXiv preprint arXiv:2607.15412</em>, Jul. 2026.</p>
-          <p class="publication-links"><a href="https://arxiv.org/abs/2607.15412">Paper</a></p>
+          <p class="publication-venue"><em>arXiv preprint arXiv:2607.15412</em>, Jul. 2026.<span class="publication-links"><a href="https://arxiv.org/abs/2607.15412">Paper</a><a href="https://github.com/chentongh/MoRe_Moo">Code</a></span></p>
         </li>
         <li>
           <p class="publication-title">SURF: Steering the Scalarization Weight to Uniformly Traverse the Pareto Front</p>
           <p class="publication-authors">Liuyuan Jiang, <strong>Chentong Huang</strong>, and Lisha Chen</p>
-          <p class="publication-venue"><em>arXiv preprint arXiv:2605.20619</em>, May 2026.</p>
-          <p class="publication-links"><a href="https://arxiv.org/pdf/2605.20619">Paper</a></p>
+          <p class="publication-venue"><em>arXiv preprint arXiv:2605.20619</em>, May 2026.<span class="publication-links"><a href="https://arxiv.org/pdf/2605.20619">Paper</a><a href="https://github.com/Liuyuan999/MOO_Uniform_PF/tree/main">Code</a></span></p>
         </li>
         <li>
           <p class="publication-title">Bidomain Uncertainty Gated Recursive Network for Pan-sharpening</p>
           <p class="publication-authors">Junming Hou, Xinyang Liu, Chenxu Wu, Xiaofeng Cong, <strong>Chentong Huang</strong>, Liang-Jian Deng, and Jian Wei You</p>
-          <p class="publication-venue"><em>Information Fusion</em>, 118:102938, Jun. 2025.</p>
-          <p class="publication-links"><a href="https://www.sciencedirect.com/science/article/pii/S1566253525000119">Paper</a><a href="https://github.com/coder-JMHou/BUGPan">Code</a></p>
+          <p class="publication-venue"><em>Information Fusion</em>, 118:102938, Jun. 2025.<span class="publication-links"><a href="https://www.sciencedirect.com/science/article/pii/S1566253525000119">Paper</a><a href="https://github.com/coder-JMHou/BUGPan">Code</a></span></p>
         </li>
         <li>
           <p class="publication-title">A General Cooperative Optimization Driven High-Frequency Enhancement Framework for Multispectral Image Fusion</p>
           <p class="publication-authors"><strong>Chentong Huang</strong>, Junming Hou, Chenxu Wu, Xiaofeng Cong, Man Zhou, Junling Li, and Danfeng Hong</p>
-          <p class="publication-venue"><em>IEEE Transactions on Geoscience and Remote Sensing</em>, 63:1–14, Feb. 2025.</p>
-          <p class="publication-links"><a href="https://ieeexplore.ieee.org/document/10897307/">Paper</a><a href="https://github.com/Vcocoi/CONet">Code</a></p>
+          <p class="publication-venue"><em>IEEE Transactions on Geoscience and Remote Sensing</em>, 63:1–14, Feb. 2025.<span class="publication-links"><a href="https://ieeexplore.ieee.org/document/10897307/">Paper</a><a href="https://github.com/Vcocoi/CONet">Code</a></span></p>
         </li>
       </ul>
     </div>

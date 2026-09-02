@@ -515,9 +515,11 @@ html[data-theme="dark"] .profile-portrait {
 }
 
 .publication-links {
-  display: flex;
-  gap: 0.95rem;
-  margin-top: 0.28rem !important;
+  display: inline-flex;
+  gap: 0.7rem;
+  align-items: baseline;
+  margin: 0 0 0 0.7rem !important;
+  white-space: nowrap;
 }
 
 .publication-links a {
