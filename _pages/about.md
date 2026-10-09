@@ -36,6 +36,10 @@ redirect_from:
     <h2 id="news-heading">News</h2>
     <div class="section-body">
       <ul class="updates-list">
+                <li>
+          <time datetime="2026-09">2026.07</time>
+          <span>Our paper was accepted by Neurips 2026.</span>
+        </li>
         <li>
           <time datetime="2026-07">2026.07</time>
           <span>Our paper was accepted by Asilomar 2026.</span>
