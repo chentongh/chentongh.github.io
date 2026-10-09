@@ -36,13 +36,13 @@ redirect_from:
     <h2 id="news-heading">News</h2>
     <div class="section-body">
       <ul class="updates-list">
-                <li>
+        <li>
           <time datetime="2026-09">2026.09</time>
-          <span>One paper was accepted by Neurips 2026.</span>
+          <span>One paper was accepted by NeurIPS 2026: <a href="https://arxiv.org/pdf/2605.20619">SURF: Steering the Scalarization Weight to Uniformly Traverse the Pareto Front</a>.</span>
         </li>
         <li>
           <time datetime="2026-07">2026.07</time>
-          <span>One paper was accepted by Asilomar 2026.</span>
+          <span>One paper was accepted by Asilomar 2026: <a href="https://arxiv.org/abs/2607.15412">Regularity-Aware Stochastic MGDA with Adaptive Conflict-Avoidant Update Direction Control</a>.</span>
         </li>
         <li>
           <time datetime="2025-08">2025.08</time>
