@@ -38,11 +38,11 @@ redirect_from:
       <ul class="updates-list">
                 <li>
           <time datetime="2026-09">2026.09</time>
-          <span>Our paper was accepted by Neurips 2026.</span>
+          <span>One paper was accepted by Neurips 2026.</span>
         </li>
         <li>
           <time datetime="2026-07">2026.07</time>
-          <span>Our paper was accepted by Asilomar 2026.</span>
+          <span>One paper was accepted by Asilomar 2026.</span>
         </li>
         <li>
           <time datetime="2025-08">2025.08</time>
