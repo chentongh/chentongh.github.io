@@ -37,7 +37,7 @@ redirect_from:
     <div class="section-body">
       <ul class="updates-list">
                 <li>
-          <time datetime="2026-09">2026.07</time>
+          <time datetime="2026-09">2026.09</time>
           <span>Our paper was accepted by Neurips 2026.</span>
         </li>
         <li>
